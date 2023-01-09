@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"rootDir": "./",
+		"moduleResolution": "NodeNext",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "ESNext",
+		"target": "ESNext",
+		"experimentalDecorators": true,
+		"sourceMap": true
+	}
+}
