@@ -24,6 +24,9 @@ let Blackprint = window.Blackprint.loadScope({
 	url: import.meta.url,
 });
 
+// Wait until all module has been loaded before load .sf files
+await sf.loader.task;
+
 // Use sQuery
 let $ = sf.$;
 
