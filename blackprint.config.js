@@ -48,6 +48,9 @@ module.exports = {
 				// 'Blackprint.Environment.loadFromURL' was set to false
 				blackprint.preferCDN('src', {
 					// module_name: bundled module URL
+					'module_name': 'URL_HERE',
+
+					// Example:
 					// 'playcanvas': 'https://cdn.jsdelivr.net/npm/playcanvas@1.x/build/playcanvas.mjs',
 				})
 			]
