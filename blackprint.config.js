@@ -30,7 +30,10 @@ module.exports = {
 
 	// (Required), `ts` config can't be used with `js` config
 	ts:{
-		file:'@cwd/dist/nodes-rename-me.mjs', // @cwd = directory where you start the Node.js
+		// @cwd = directory where you start the Node.js
+		file:'@cwd/dist/nodes-rename-me.mjs',
+
+		// Directory below is relative to this config's directory
 		entry: '_entry.ts',
 		watch: ['src/**/*.ts'],
 		scanDocs: ['src/**/*.ts'],
